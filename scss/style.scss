@@ -1,0 +1,106 @@
+$green: #809D3C;
+$dark-green:#5D8736;
+$light-green: #A9C46C;
+$pink: #D99D81;
+$light-pink:#F4FFC3;
+
+body {
+  background-color: white !important;
+}
+
+h1 {
+  color: $green;
+  font-weight: bold;
+  text-align: center;
+}
+.btn-outline-success{
+  background-color: $dark-green !important;
+  border-color: $dark-green;
+  color: $light-green;
+}
+
+.navbar {
+  .navbar-brand {
+    color: $green ;
+  }
+ 
+}
+
+.hero {
+  background-image: url(''); // تصویر موردنظر
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+
+  
+}
+.btn-success {
+    background-color: $dark-green !important;
+    border-color: $dark-green;
+    color: $light-green;
+    font-weight: bold;
+
+    &:hover{
+      background-color:$light-green !important ;
+      color: $green;
+      border-color: $light-green;
+      
+    }
+  }
+.text-success{
+  color: #2e7d32 !important;
+}
+
+
+footer {
+  background-color: $light-green ;
+  color: #ddd;
+
+  h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .footer-link {
+    color: $dark-green;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0.4rem;
+
+    &:hover {
+      color: #2e7d32;
+      padding-right: 4px;
+    }
+  }
+
+  hr {
+    opacity: 0.2;
+  }
+}
+header {
+  background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+}
+
+section .p-4 {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+
